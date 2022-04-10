@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.part {
+    display: flex;
+}
+
+.half_width {
+    width: 50%;
+    padding: 2%;
+}
+
+.half_width img {
+    width: 100%;
+}
+
+.h3highlite {
+    color: chocolate;
+}
+
+.h3highlite1 {
+    color: #4C3FC9;
+}
+
+.first_part {
+    background-image: url(photos/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.second_part {
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.ex {
+    width: 42%;
+    padding: 3%;
+    box-shadow: 15px 15px 13px #575d6d;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(41, 2, 134), rgb(111, 97, 236));
+    border-image-slice: 1;
+}
+
+#pro {
+    border-left: 7px solid;
+    border-image: linear-gradient(#FAC061, #F49560);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+}
